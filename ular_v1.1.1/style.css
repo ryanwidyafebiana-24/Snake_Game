@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background-color: rgb(219, 116, 219);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+canvas {
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgb(162, 87, 162);
+  box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+button {
+  background-color: rgb(162, 87, 162);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgb(137, 67, 133);
+  margin: 5px;
+}
+
+.info {
+  margin: 10px;
+  font-size: 20px;
+}
+
+#gameOver {
+  display: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: yellow;
+  margin-top: 15px;
+}
